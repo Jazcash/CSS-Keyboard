@@ -11,7 +11,7 @@ ul{
 	background: #444;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px 0px 7px 11px;
+	padding: 10px 3px 7px 11px;
 	border-bottom: 10px solid #333;
 	border-top: 2px solid #ddd;
 	box-shadow: 5px 5px #666 inset;
@@ -51,7 +51,7 @@ ul{
 	z-index: 0;
 }
 .key:hover{
-	background: #3a3a3a;
+	background: #383838;
 }
 .key:hover > span{
 	opacity: 0.05;
@@ -61,21 +61,22 @@ ul{
 }
 /* Special Keys */
 .esc > span{font-size: 18px; margin: 15px 0 0 12px;}
-.f1{margin-left: 66px;}
-.f5, .f9{margin-left: 34px;}
-.del{width: 118px;}
+.function{margin-bottom: 10px;}
+.f1{margin-left: 68px;}
+.f5, .f9{margin-left: 35px;}
+.del{width: 122px;}
 .del > span{font-size: 36px; }
 .tab{width: 88px;}
 .tab > span{font-size: 19px;}
 .caps{width: 107px;}
 .caps > span{font-size: 32px;}
-.enter{width: 86px; position: relative;}
+.enter{width: 90px; position: relative;}
 .enter:before{
 	position: absolute;
 	content: "";
 	right: -1;
 	top: 59px;
-	width: 67px;
+	width: 71px;
 	height: 62px;
 	margin-top: -6px;
 	background: inherit;
@@ -86,7 +87,7 @@ ul{
 .enter > span{font-size: 36px; margin-top: 10px;}
 .shift{width: 75px;}
 .shift > span{font-size: 32px;}
-.rshift{width: 165px;}
+.rshift{width: 169px;}
 .rshift > span{font-size: 32px;}
 .ctrl{width: 105px;}
 .special{}
@@ -95,7 +96,7 @@ ul{
 .space{width: 465px;}
 .altgr{width: 77px;}
 .altgr > span{font-size: 20px;}
-.rctrl{width: 68px;}
+.rctrl{width: 72px;}
 /* End Special Keys */
 
 li > span {
