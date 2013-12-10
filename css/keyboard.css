@@ -54,7 +54,7 @@ ul{
 	background: #383838;
 }
 .key:hover > span{
-	opacity: 0.05;
+	opacity: 0.3;
 }
 .key:hover .element > span{
 	color: #fff;
