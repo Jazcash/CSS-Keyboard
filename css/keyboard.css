@@ -1,4 +1,3 @@
-body{padding: 10px; background: #ccc;}
 li{
 	display: inline-block;
 }
@@ -125,4 +124,5 @@ li > span {
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
+	line-height: 100%;
 }
