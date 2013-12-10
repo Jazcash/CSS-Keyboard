@@ -1,0 +1,127 @@
+body{padding: 10px; background: #ccc;}
+li{
+	display: inline-block;
+}
+ul{ 
+	padding: 0;
+	margin: 0;
+}
+.keyboard{
+	width: 990px;
+	background: #444;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0px 7px 11px;
+	border-bottom: 10px solid #333;
+	border-top: 2px solid #ddd;
+	box-shadow: 5px 5px #666 inset;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+.key{
+	width: 56px;
+	height: 53px;
+	margin: 3px 2px;
+	background: #333;
+	box-shadow: 0px -1px #000;
+	border-top: 1px solid #555;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+	border-radius: 3px;
+	position: relative;
+	vertical-align: top;
+	border-bottom: 2px solid #222;
+	line-height: 135%;
+}
+.key > span{
+	display: block;
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 22px;
+	margin: 5px 10px;
+	color: #FFF;
+	position: absolute;
+	opacity: 0.1;
+	top:0;
+	z-index: 0;
+}
+.key:hover{
+	background: #3a3a3a;
+}
+.key:hover > span{
+	opacity: 0.05;
+}
+.key:hover .element > span{
+	color: #fff;
+}
+/* Special Keys */
+.esc > span{font-size: 18px; margin: 15px 0 0 12px;}
+.f1{margin-left: 66px;}
+.f5, .f9{margin-left: 34px;}
+.del{width: 118px;}
+.del > span{font-size: 36px; }
+.tab{width: 88px;}
+.tab > span{font-size: 19px;}
+.caps{width: 107px;}
+.caps > span{font-size: 32px;}
+.enter{width: 86px; position: relative;}
+.enter:before{
+	position: absolute;
+	content: "";
+	right: -1;
+	top: 59px;
+	width: 67px;
+	height: 62px;
+	margin-top: -6px;
+	background: inherit;
+	border-bottom: 2px solid #222;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+}
+.enter > span{font-size: 36px; margin-top: 10px;}
+.shift{width: 75px;}
+.shift > span{font-size: 32px;}
+.rshift{width: 165px;}
+.rshift > span{font-size: 32px;}
+.ctrl{width: 105px;}
+.special{}
+.special > span{font-size: 20px;}
+.alt{width: 89px;}
+.space{width: 465px;}
+.altgr{width: 77px;}
+.altgr > span{font-size: 20px;}
+.rctrl{width: 68px;}
+/* End Special Keys */
+
+li > span {
+	z-index: 1;
+	position: absolute;
+}
+.outerContainer {
+    display: table;
+    width: 55px; /* width of parent */
+    height: 53px; /* height of parent */
+    overflow: hidden;
+    position: absolute;
+}
+.innerContainer {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #eee;
+	font-family: 'Open Sans', Arial;
+	font-size: 9px;		
+	-webkit-touch-callout: text;
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
